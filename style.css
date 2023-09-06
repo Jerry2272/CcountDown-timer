@@ -6,7 +6,9 @@ body {
   background: #fff;
   margin: 24px;
 }
-
+.nav{
+  display: flex;
+}
 .sc{
   font-family: Roboto,sans-serif;
   text-align: center;
@@ -83,13 +85,13 @@ img{
 @media (min-width:1400px) {
   img{
     width: 400px; 
-    margin-left: 35%;
+    margin-left: 40%;
   }
   .timer__part {
     font-size: 200px;
   }
   .timer {
     width: 50em;
-    margin-left: 18%;
+    margin-left: 28%;
   }
 }
